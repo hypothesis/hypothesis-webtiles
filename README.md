@@ -1,4 +1,4 @@
-# Microsoft Band Webtile's for Hypothes.is
+# [Hypothes.is](http://hypothes.is) for [Microsoft Band](http://microsoftband.com/)
 
 Seriously.
 
