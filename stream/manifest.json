@@ -1,0 +1,52 @@
+{
+  "manifestVersion": 1,
+  "name": "Hypothes.is Stream",
+  "description": "Annotation notifications from the Hypothes.is Stream.",
+  "version": 1,
+  "versionString": "1",
+  "author": "BigBlueHat",
+  "organization": "The Hypothes.is Project",
+  "contactEmail": "bigbluehat@hypothes.is",
+  "tileIcon": {
+    "46": "icons/tileIcon.png"
+  },
+  "badgeIcon": {
+    "24": "icons/badgeIcon.png"
+  },
+  "icons": {},
+  "refreshIntervalMinutes": 30,
+  "resources": [
+    {
+      "url": "https://hypothes.is/stream.atom",
+      "style": "Feed",
+      "content": {
+        "_1_title": "title",
+        "_1_content": "content",
+        "_1_authorname": "author/name"
+      }
+    }
+  ],
+  "pages": [
+    {
+      "layout": "MSBand_ScrollingText",
+      "condition": "true",
+      "textBindings": [
+        {
+          "elementId": "1",
+          "value": "On \"{{_1_title}}\""
+        },
+        {
+          "elementId": "2",
+          "value": "{{_1_content}}"
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "condition": "{{_1_authorname}} != \"\"\"\"",
+      "title": "Hypothes.is Annotation",
+      "body": "by {{_1_authorname}}"
+    }
+  ]
+}
