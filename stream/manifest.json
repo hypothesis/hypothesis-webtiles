@@ -3,7 +3,7 @@
   "name": "Hypothes.is Stream",
   "description": "Annotation notifications from the Hypothes.is Stream.",
   "version": 1,
-  "versionString": "1",
+  "versionString": "v1.0.0",
   "author": "BigBlueHat",
   "organization": "The Hypothes.is Project",
   "contactEmail": "bigbluehat@hypothes.is",

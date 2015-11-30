@@ -10,10 +10,10 @@ from the Hypothes.is Atom feed, and displays it on your
 
 ### Building
 
-It's no harder than zipping up the `stream` folder and renaming
-the `.zip` file to `.webtile` file and getting that to your Band
-connected phone--email, a link, whatever. Open the `.webtile` on
-that device and it'll sync it to your Band. Pretty slick.
+It's no harder than zipping up the **contents** of the `stream`
+folder and renaming the `.zip` file to `.webtile` file and getting
+that to your Band connected phone--email, a link, whatever. Open the
+`.webtile` on that device and it'll sync it to your Band. Pretty slick.
 
 ## License
 
